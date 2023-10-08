@@ -32,7 +32,7 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: lenin, // можно менять
-        name: 'Some Name',  // можно менять
+        name: 'Vladimir Lenin',  // можно менять
     },
     message: {
         text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
@@ -43,7 +43,7 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: marx, // можно менять
-        name: 'Friend Name', // можно менять
+        name: 'Karl Marx', // можно менять
     },
     message: {
         text: 'зеркальное сообщение для тренировки css', // можно менять
@@ -57,7 +57,7 @@ const HW1 = () => {
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
-                <div>
+                <div className={s2.hw_message}>
                     <Message message={message0} />
                     <FriendMessage message={friendMessage0} />
                 </div>
