@@ -3,7 +3,8 @@
 }
 
 .hw {
-    max-width: 1230px;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0 auto;
     padding: 15px
 }
