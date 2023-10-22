@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MHPFUND/static/css/main.6fc1717e.css",
-    "main.js": "/MHPFUND/static/js/main.ed70bb88.js",
+    "main.css": "/MHPFUND/static/css/main.c6580cb0.css",
+    "main.js": "/MHPFUND/static/js/main.9b34a167.js",
     "static/js/787.66cb4309.chunk.js": "/MHPFUND/static/js/787.66cb4309.chunk.js",
     "static/media/marx.png": "/MHPFUND/static/media/marx.f17067b6ddb2bc895792.png",
     "static/media/lenin.jpeg": "/MHPFUND/static/media/lenin.fd7791eca4f84e3124a0.jpeg",
@@ -12,12 +12,12 @@
     "index.html": "/MHPFUND/index.html",
     "static/media/checked.svg": "/MHPFUND/static/media/checked.b75ca55e8759862b4083.svg",
     "static/media/burger.svg": "/MHPFUND/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.6fc1717e.css.map": "/MHPFUND/static/css/main.6fc1717e.css.map",
-    "main.ed70bb88.js.map": "/MHPFUND/static/js/main.ed70bb88.js.map",
+    "main.c6580cb0.css.map": "/MHPFUND/static/css/main.c6580cb0.css.map",
+    "main.9b34a167.js.map": "/MHPFUND/static/js/main.9b34a167.js.map",
     "787.66cb4309.chunk.js.map": "/MHPFUND/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fc1717e.css",
-    "static/js/main.ed70bb88.js"
+    "static/css/main.c6580cb0.css",
+    "static/js/main.9b34a167.js"
   ]
 }
