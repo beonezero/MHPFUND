@@ -2,6 +2,9 @@
 }
 
 .responseContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 94px;
 }
 
 .imageContainer {
@@ -11,6 +14,7 @@
 }
 
 .textContainer{
+    align-self: center;
 }
 
 .code {
