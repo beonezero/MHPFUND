@@ -37,22 +37,22 @@ const HW13 = () => {
             .post(url, {success: x})
             .then((res) => {
                 console.log(res)
-                setCode(res.data.errorText)
+                setCode("Код 200!")
                 setImage(success200)
-                setText(res.data.info)
-                setInfo(res.statusText)
+                setText(res.data.errorText)
+                setInfo(res.data.info)
             })
             .catch((e) => {
                 if (e.response.status === 400) {
-                    setCode(e.response.data.errorText)
+                    setCode("Ошибка 400!")
                     setImage(error400)
-                    setText(e.response.data.info)
-                    setInfo(e.statusText)
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
                 } else if (e.response.status === 500) {
-                    setCode(e.response.data.errorText)
+                    setCode("Ошибка 500!")
                     setImage(error500)
-                    setText(e.response.data.info)
-                    setInfo(e.statusText)
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
                 } else {
                     setCode("Error!")
                     setImage(errorUnknown)

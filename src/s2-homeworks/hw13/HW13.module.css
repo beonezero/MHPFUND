@@ -1,10 +1,17 @@
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 61px;
 }
 
 .responseContainer {
     display: flex;
     flex-direction: row;
-    gap: 94px;
+    gap: 99px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 253px;
 }
 
 .imageContainer {
@@ -15,12 +22,16 @@
 
 .textContainer{
     align-self: center;
+    /*text-align: left;*/
 }
 
 .code {
+    font-size: 30px;
+    margin-bottom: 12px;
 }
 
 .text {
+
 }
 .info {
 }
